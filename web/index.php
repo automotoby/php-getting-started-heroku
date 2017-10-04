@@ -5,14 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Form test</title>
-</head>
+ </head>
 <body>
 
   <?php if (isset($_GET['submitted'])) { ?>
     <h1>The server had accepted:</h1>
     <p>radio: <?php echo htmlspecialchars($_GET['radio']); ?></p>
     <p>text: <?php echo htmlspecialchars($_GET['text']); ?></p>
-    <p>color: <?php echo htmlspecialchars($_GET['color']); ?></p>
+    <p style="background:<?php echo htmlspecialchars($_GET['color']); ?>">)</p>
     <p>date: <?php echo htmlspecialchars($_GET['date']); ?></p>
     <p>month: <?php echo htmlspecialchars($_GET['month']); ?></p>
     <p>email: <?php echo htmlspecialchars($_GET['email']); ?></p>
