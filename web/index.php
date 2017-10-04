@@ -12,7 +12,7 @@
     <h1>The server had accepted:</h1>
     <p>radio: <?php echo htmlspecialchars($_GET['radio']); ?></p>
     <p>text: <?php echo htmlspecialchars($_GET['text']); ?></p>
-    <p style="background:<?php echo htmlspecialchars($_GET['color']); ?>">)</p>
+    <p style="background:<?php echo htmlspecialchars($_GET['color']); ?>; width:40px">)</p>
     <p>date: <?php echo htmlspecialchars($_GET['date']); ?></p>
     <p>month: <?php echo htmlspecialchars($_GET['month']); ?></p>
     <p>email: <?php echo htmlspecialchars($_GET['email']); ?></p>
