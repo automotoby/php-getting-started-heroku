@@ -25,6 +25,37 @@
       <label for="my-radio-no">radio No: </label>
       <input id="my-radio-no" name="radio" type="radio" required value="No"></p>
     <br>
+    
+	  <p><input type="text" name="text" required maxlength="4" placeholder="Введите текст.." required></p>
+	  <p><input type="color" name="color" required></p>
+	  <p><input type="date" name="date" required></p>
+    <p><label for="my-month">month: </label>
+        <input id="my-month" type="month" required></p>
+    <p><label for="my-email">email: </label>     
+        <input id="my-email" type="email" required></p>
+    <p><label for="my-radio">radio: </label>      
+       <input id="my-radio" name="radio" type="radio" required>
+       <input name="radio" type="radio" required></p>
+    <p><label for="my-number">number: </label>     
+      <input id="my-number" type="number"></p>
+    <p><label for="my-range">range: </label>       
+      <input id="my-range" type="range" min="0" max="10"></p>
+    <p><label for="my-checkbox">checkbox: </label> 
+      <input id="my-checkbox" type="checkbox" checked></p>
+<p>
+<select id="my-select" name="myselect" size="2" multiple required>
+  <option value="">-------</option>
+  <option value="1">Первая</option>
+  <option value="2">Вторая</option>
+  <option value="3">Третья</option>
+</select>
+</p>	  
+<p>
+<textarea name="" id="my-textarea" cols="30" rows="10" style="resize:none" placeholder="Введите текст...."></textarea>
+</p>
+<p>
+  <input type="hidden" value="2">
+</p>
     <input type="submit" value="Submit">
     <input type="reset" value="Clear">
   </form>
