@@ -11,11 +11,11 @@
   <?php if (isset($_GET['submitted'])) { ?>
     <h1>The server had accepted:</h1>
     <p>radio: <?php echo htmlspecialchars($_GET['radio']); ?></p>
-    <p>radio: <?php echo htmlspecialchars($_GET['text']); ?></p>
-    <p>radio: <?php echo htmlspecialchars($_GET['color']); ?></p>
-    <p>radio: <?php echo htmlspecialchars($_GET['date']); ?></p>
-    <p>radio: <?php echo htmlspecialchars($_GET['month']); ?></p>
-    <p>radio: <?php echo htmlspecialchars($_GET['email']); ?></p>
+    <p>text: <?php echo htmlspecialchars($_GET['text']); ?></p>
+    <p>color: <?php echo htmlspecialchars($_GET['color']); ?></p>
+    <p>date: <?php echo htmlspecialchars($_GET['date']); ?></p>
+    <p>month: <?php echo htmlspecialchars($_GET['month']); ?></p>
+    <p>email: <?php echo htmlspecialchars($_GET['email']); ?></p>
     <p>Try again? <a href="/index.php">Yes!</a></p>
   <?php } ?>
 
