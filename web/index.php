@@ -16,7 +16,7 @@
     <p>date: <?php echo htmlspecialchars($_GET['date']); ?></p>
     <p>month: <?php echo htmlspecialchars($_GET['month']); ?></p>
     <p>email: <?php echo htmlspecialchars($_GET['email']); ?></p>
-  
+    <p>Текст: <?php echo htmlspecialchars($_GET['my-textarea']); ?></p>
     <p>Try again? <a href="/index.php">Yes!</a></p>
   <?php } ?>
 
