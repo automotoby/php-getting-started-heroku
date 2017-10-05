@@ -14,9 +14,9 @@
     <p>text: <?php echo htmlspecialchars($_GET['text']); ?></p>
     <p style="background:<?php echo htmlspecialchars($_GET['color']); ?>; width:40px">)</p>
     <p>date: <?php echo htmlspecialchars($_GET['date']); ?></p>
-    <p>month: <?php echo htmlspecialchars($_GET['my-month']); ?></p>
-    <p>email: <?php echo htmlspecialchars($_GET['my-email']); ?></p>
-    <p>my-number: <?php echo htmlspecialchars($_GET['my-number']); ?></p>
+    <p>month: <?php echo htmlspecialchars($_GET['month']); ?></p>
+    <p>email: <?php echo htmlspecialchars($_GET['email']); ?></p>
+    <p>my-number: <?php echo htmlspecialchars($_GET['number']); ?></p>
 
     
     <p>Текст: <?php echo htmlspecialchars($_GET['my-textarea']); ?></p>
