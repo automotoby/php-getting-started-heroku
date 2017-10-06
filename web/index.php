@@ -45,8 +45,8 @@
     <p><label for="my-email">email: </label>     
         <input id="my-email" name="my-email" type="email" required></p>
     <p><label for="my-radio">radio: </label>      
-       <input id="my-radio" name="my-radio" type="radio" required>
-       <input name="radio" type="radio" required></p>
+       <input id="my-radio" name="my-radio" type="radio" value="1" required>
+       <input id="my-radio" name="my-radio" type="radio" value="2" required></p>
     <p><label for="my-number">number: </label>     
       <input id="my-number" name="my-number" type="number"></p>
     <p><label for="my-range">range: </label>       
