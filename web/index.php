@@ -18,7 +18,7 @@
     <p>email: <?php echo htmlspecialchars($_GET['my-email']); ?></p>
     <p>radio: <?php echo htmlspecialchars($_GET['my-radio']); ?></p>
     <p>my-number: <?php echo htmlspecialchars($_GET['my-number']); ?></p>
-    <p>ranger: <?php echo htmlspecialchars($_GET['my-ranger']); ?></p>
+    <p>ranger: <?php echo htmlspecialchars($_GET['my-range']); ?></p>
     <p>checkbox: <?php echo htmlspecialchars($_GET['my-checkbox']); ?></p>
     <p>select: <?php echo htmlspecialchars($_GET['my-select']); ?></p>
     <p>Текст: <?php echo htmlspecialchars($_GET['my-textarea']); ?></p>
