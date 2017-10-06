@@ -16,9 +16,11 @@
     <p>date: <?php echo htmlspecialchars($_GET['date']); ?></p>
     <p>month: <?php echo htmlspecialchars($_GET['my-month']); ?></p>
     <p>email: <?php echo htmlspecialchars($_GET['my-email']); ?></p>
+    <p>radio: <?php echo htmlspecialchars($_GET['my-radio']); ?></p>
     <p>my-number: <?php echo htmlspecialchars($_GET['my-number']); ?></p>
-
-    
+    <p>ranger: <?php echo htmlspecialchars($_GET['my-ranger']); ?></p>
+    <p>checkbox: <?php echo htmlspecialchars($_GET['my-checkbox']); ?></p>
+    <p>select: <?php echo htmlspecialchars($_GET['my-select']); ?></p>
     <p>Текст: <?php echo htmlspecialchars($_GET['my-textarea']); ?></p>
     <p>Try again? <a href="/index.php">Yes!</a></p>
   <?php } ?>
@@ -39,20 +41,20 @@
 	  <p><input type="color" name="color" required></p>
 	  <p><input type="date" name="date" required></p>
     <p><label for="my-month">month: </label>
-        <input id="my-month" type="month" required></p>
+        <input id="my-month" name="my-month" type="month" required></p>
     <p><label for="my-email">email: </label>     
-        <input id="my-email" type="email" required></p>
+        <input id="my-email" name="my-email" type="email" required></p>
     <p><label for="my-radio">radio: </label>      
-       <input id="my-radio" name="radio" type="radio" required>
+       <input id="my-radio" name="my-radio" type="radio" required>
        <input name="radio" type="radio" required></p>
     <p><label for="my-number">number: </label>     
-      <input id="my-number" type="number"></p>
+      <input id="my-number" name="my-number" type="number"></p>
     <p><label for="my-range">range: </label>       
-      <input id="my-range" type="range" min="0" max="10"></p>
+      <input id="my-range" name="my-range" type="range" min="0" max="10"></p>
     <p><label for="my-checkbox">checkbox: </label> 
-      <input id="my-checkbox" type="checkbox" checked></p>
+      <input id="my-checkbox" name="my-checkbox" type="checkbox" checked></p>
 <p>
-<select id="my-select" name="myselect" size="2" multiple required>
+<select id="my-select" name="my-select" size="2" multiple required>
   <option value="">-------</option>
   <option value="1">Первая</option>
   <option value="2">Вторая</option>
